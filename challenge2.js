@@ -23,9 +23,9 @@ function greet(name) {
 
 function is0dd(n) {
   if (n % 2 === 1) {
-    return "true";
+    return true;
   } else if (n % 2 === 0) {
-    return "False";
+    return false;
   }
 }
 console.log(is0dd(20));
